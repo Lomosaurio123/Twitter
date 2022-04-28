@@ -5,8 +5,8 @@ class User {
         this.username = username
         this.name = name
         this.bio = bio
-        this.dateCreated = dateCreated
-        this.lastUpdate = lastUpdate
+        this.dateCreated = new Date()
+        this.lastUpdate = new Date()
     }
 }
 
